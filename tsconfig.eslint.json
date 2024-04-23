@@ -1,0 +1,14 @@
+{
+    "extends": "./tsconfig.base.json",
+    "include": [
+        ".eslintrc.js",
+        "packages/**/*",
+        "main-package/**/*",
+        "prettier.config.js",
+    ],
+    "exclude": [
+        "main-package/src/out",
+        "**/node_modules",
+        "**/.git",
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "allowJs": true,
+        "jsx": "preserve",
+        "isolatedModules": true
+    },
+    "include": ["main-project", "packages"],
+    "exclude": [
+        "node_modules",
+        ".next",
+        ".git",
+        "out",
+        "**/.next",
+        "**/node_modules"
+    ]
+}

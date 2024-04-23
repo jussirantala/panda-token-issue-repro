@@ -1,0 +1,38 @@
+{
+    "name": "@asdasd-social/core",
+    "version": "0.0.0",
+    "description": "asd core monorepo.",
+    "author": "asd asd <asd.asd@asdasd.com>",
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "build": "pnpm -r prepare && pnpm -r build"
+    },
+    "devDependencies": {
+        "@pandacss/eslint-plugin": "0.1.1",
+        "@types/jest": "29.5.2",
+        "@typescript-eslint/eslint-plugin": "5.59.8",
+        "@typescript-eslint/parser": "5.59.8",
+        "eslint": "8.42.0",
+        "eslint-config-prettier": "8.8.0",
+        "eslint-plugin-import": "2.27.5",
+        "eslint-plugin-jest": "27.2.1",
+        "eslint-plugin-jsx-a11y": "6.7.1",
+        "eslint-plugin-prettier": "4.2.1",
+        "eslint-plugin-promise": "6.1.1",
+        "eslint-plugin-react": "7.32.2",
+        "eslint-plugin-react-hooks": "4.6.0",
+        "eslint-plugin-restrict-imports": "0.0.3",
+        "eslint-plugin-typescript-sort-keys": "2.3.0",
+        "prettier": "2.8.8",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "ts-jest": "29.1.1",
+        "typescript": "5.1.3"
+    },
+    "resolutions": {
+        "@types/react": "17.0.47",
+        "@types/react-dom": "17.0.19",
+        "rxjs": "7.8.1"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "name": "@asdasd-social/styled-system",
+    "version": "1.0.0",
+    "description": "",
+    "author": "Jussi asdasd <jussi.asdasd@xa.asdasd.com>",
+    "license": "UNLICENSED",
+    "main": "./src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "panda codegen && panda ship --outfile dist/panda.buildinfo.json"
+    },
+    "devDependencies": {
+        "@pandacss/dev": "0.37.2"
+    },
+    "exports": {
+        ".": {
+            "require": "./src/index.js",
+            "import": "./src/index.js"
+        },
+        "./css": {
+            "types": "./src/css/index.d.ts",
+            "require": "./src/css/index.js",
+            "import": "./src/css/index.js"
+        },
+        "./tokens": {
+            "types": "./src/tokens/index.d.ts",
+            "require": "./src/tokens/index.js",
+            "import": "./src/tokens/index.js"
+        },
+        "./types": {
+            "types": "./src/types/index.d.ts",
+            "require": "./src/types/index.js",
+            "import": "./src/types/index.js"
+        },
+        "./patterns": {
+            "types": "./src/patterns/index.d.ts",
+            "require": "./src/patterns/index.js",
+            "import": "./src/patterns/index.js"
+        },
+        "./recipes": {
+            "types": "./src/recipes/index.d.ts",
+            "require": "./src/recipes/index.js",
+            "import": "./src/recipes/index.js"
+        },
+        "./preset": {
+            "types": "./src/preset/index.d.ts",
+            "require": "./src/preset/index.js",
+            "import": "./src/preset/index.js"
+        },
+        "./jsx": {
+            "types": "./src/jsx/index.d.ts",
+            "require": "./src/jsx/index.js",
+            "import": "./src/jsx/index.js"
+        },
+        "./styles.css": "./src/styles.css"
+    }
+}
