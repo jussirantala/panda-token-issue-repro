@@ -2,7 +2,6 @@
     "name": "@asdasd-social/main-project",
     "version": "0.0.0",
     "description": "ViteJS app.",
-    "repository": "https://github.ol.asdasd.net/online-web/asdasdsocial.git",
     "author": "Asd Asd <asd.asd@asdasd.com>",
     "license": "UNLICENSED",
     "private": true,
@@ -24,7 +23,6 @@
         "vite": "5.2.6"
     },
     "scripts": {
-        "prepare": "panda codegen",
         "dev": "vite --host",
         "build": "tsc && vite build"
     },

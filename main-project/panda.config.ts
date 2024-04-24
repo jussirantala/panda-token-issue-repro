@@ -5,8 +5,8 @@ export default defineConfig({
     presets: [edsPreset],
     include: [
         './node_modules/@asdasd-social/styled-system/dist/panda.buildinfo.json',
-        './node_modules/@asdasd-social/shared/src/components/**/*.{css.js,jsx,css.ts,tsx}',
-        './src/components/**/*.{css.js,jsx,css.ts,tsx}',
+        // '../packages/shared/src/**/*.{css.ts,tsx}',
+        './src/**/*.{tsx,css.ts}',
     ],
     importMap: '@asdasd-social/styled-system',
     outExtension: 'js',

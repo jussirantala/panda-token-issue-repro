@@ -1,1 +1,1 @@
-export {DisplayName} from './components/DisplayName';
+export {DisplayName} from './components/DisplayName/DisplayName';
